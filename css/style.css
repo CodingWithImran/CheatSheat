@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+li{
+    margin: 3px;
+}
+.mainsection{
+    width: 100vw;
+}
+.header{
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    color: white;
+    width: 80vw;
+    margin: auto;
+    height: 56px;
+}
+.hero{
+    text-align: center;
+    background-color: black;
+    width: 100vw;
+    height: 10rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+   line-height: 10rem;
+}
+.logo{
+   margin-right: auto;
+   width: 30vw;
+   display: flex;
+   align-items: center;
+}
+.logo img{
+    width: 34px;
+    height: 34px;
+    padding: 0 1rem;
+}
+.logo div{
+    display: inline-block;
+     vertical-align: middle; 
+     font-size: 1.3rem;
+     font-weight: bold;
+     font-family: 'Potta One', cursive;
+}
+.nav ul{
+    display: flex;
+    width: 50vw;
+    justify-content: end;
+}
+.nav ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.nav ul li a:hover{
+    color: rgb(212, 196, 196);
+    text-decoration:underline;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.container{
+    width: 95vw;
+    margin:auto;
+    padding: 2rem 0;
+
+}
+.toolbar-item .copy-to-clipboard-button{
+    cursor: pointer;
+    color: white;
+}
+.container ol li{
+    list-style-type: none;
+}
+h1, p, li{
+    margin: 10px 0;
+}
+h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+code{
+    font-size: 1em;
+}

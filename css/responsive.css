@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 768px) {
+    .nav{
+        display: flex;
+        align-items: center;
+         flex-direction: column;
+        justify-content: center;
+        color: white;
+        width: 80vw;
+        margin: auto;
+       height: auto;
+    }
+    .logo{
+        width: 80vw;
+        justify-content: center;
+        padding: 10px 0;
+     }
+     .nav ul{
+        width: 80vw;
+        justify-content: center;
+        padding: 10px 0;
+    }
+  }
